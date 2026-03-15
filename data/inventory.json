@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Булочка",
+    "quantity": 69,
+    "unit": "шт",
+    "min_quantity": 20,
+    "price_per_unit": 15
+  },
+  {
+    "name": "Сосиска",
+    "quantity": 49,
+    "unit": "шт",
+    "min_quantity": 15,
+    "price_per_unit": 25
+  },
+  {
+    "name": "Майонез",
+    "quantity": 50,
+    "unit": "л",
+    "min_quantity": 10,
+    "price_per_unit": 5
+  },
+  {
+    "name": "Кетчуп",
+    "quantity": 45,
+    "unit": "л",
+    "min_quantity": 10,
+    "price_per_unit": 4
+  },
+  {
+    "name": "Горчица",
+    "quantity": 30,
+    "unit": "л",
+    "min_quantity": 5,
+    "price_per_unit": 6
+  },
+  {
+    "name": "Лук",
+    "quantity": 40,
+    "unit": "кг",
+    "min_quantity": 5,
+    "price_per_unit": 8
+  },
+  {
+    "name": "Халапеньо",
+    "quantity": 25,
+    "unit": "кг",
+    "min_quantity": 3,
+    "price_per_unit": 10
+  },
+  {
+    "name": "Чили",
+    "quantity": 20,
+    "unit": "кг",
+    "min_quantity": 2,
+    "price_per_unit": 12
+  },
+  {
+    "name": "Огурцы",
+    "quantity": 35,
+    "unit": "кг",
+    "min_quantity": 5,
+    "price_per_unit": 15
+  },
+  {
+    "name": "Сыр",
+    "quantity": 56.9,
+    "unit": "кг",
+    "min_quantity": 10,
+    "price_per_unit": 20
+  },
+  {
+    "name": "Соусы",
+    "quantity": 38.45000000000001,
+    "unit": "л",
+    "min_quantity": 5,
+    "price_per_unit": 8
+  }
+]

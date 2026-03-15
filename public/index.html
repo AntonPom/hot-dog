@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot dog</title>
+    <link href="/static/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script defer src="/static/script.js" ></script>
+    <link rel="icon" type="image/x-icon" href="/static/image/Hot_Dog_icon-icons.com_68736.ico">
+</head>
+<body>
+    <div id="Standartclass">
+        <h1>🌭Заказ Хот-догов🌭</h1>
+        <div id="Samahotdog">
+            <div class="box" data-hotdog="french">
+                <img src="/static/image/french-dog_2050x1306_8c4.webp" alt="Французский" class="hotdog-img">
+                <div class="hotdog-name">Французский</div>
+                <div class="hotdog-price">299 ₽</div>
+            </div>
+            <div class="box" data-hotdog="datskii">
+                <img src="/static/image/datskii_hot-dog-104679.jpg" alt="Датский" class="hotdog-img">
+                <div class="hotdog-name">Датский</div>
+                <div class="hotdog-price">349 ₽</div>
+            </div>
+            <div class="box" data-hotdog="kanadskii">
+                <img src="/static/image/kanadskii.webp" alt="Канадский" class="hotdog-img">
+                <div class="hotdog-name">Канадский</div>
+                <div class="hotdog-price">349 ₽</div>
+            </div>
+            <div class="box" data-hotdog="kastom">
+                <img src="/static/image/castom.webp" alt="Свой" class="hotdog-img">
+                <div class="hotdog-name">Свой</div>
+                <div class="hotdog-price">от 199 ₽</div>
+            </div>
+        </div>
+    </div>
+    <div id="topping">
+        <h1>Добавить Топпинги</h1>
+        <div class="topping-item">
+            <input type="checkbox" id="mayonnaise" name="topping[]" value="mayonnaise" data-price="20">
+            <label for="mayonnaise">🫙 Майонез (+20 ₽)</label>
+        </div>
+        <div class="topping-item">
+            <input type="checkbox" id="ketchup" name="topping[]" value="ketchup" data-price="20">
+            <label for="ketchup">🥫 Кетчуп (+20 ₽)</label>
+        </div>
+        <div class="topping-item">
+            <input type="checkbox" id="mustard" name="topping[]" value="mustard" data-price="20">
+            <label for="mustard">🍯 Горчица (+20 ₽)</label>
+        </div>
+        <div class="topping-item">
+            <input type="checkbox" id="luk" name="topping[]" value="LUK" data-price="15">
+            <label for="luk">🧅 Сладкий лук (+15 ₽)</label><br>
+        </div>
+        <div class="topping-item">
+            <input type="checkbox" id="halapen" name="topping[]" value="Halapen" data-price="15">
+            <label for="halapen">🌶️ Халапеньо (+15 ₽)</label>
+        </div>
+        <div class="topping-item">
+            <input type="checkbox" id="chili" name="topping[]" value="chili" data-price="15" >
+            <label for="chili">🔥 Чили (+15 ₽) </label>
+        </div>
+        <div class="topping-item">
+            <input type="checkbox" id="cucumber" name="topping[]" value="cucumber" data-price="25">
+            <label for="cucumber">🥒 Огурцы (+25 ₽)</label>
+        </div>
+
+    </div>
+    <div id="payment-info">
+        <div id="payment-method">
+            <h2><i class="fas fa-credit-card"></i> Способ оплаты</h2>
+            <div class="payment-options">
+                <div class="payment-option">
+                    <input type="radio" id="cash" name="payment" value="cash" checked>
+                    <label for="cash" class="payment-label">
+                        <i class="fas fa-money-bill-wave"> </i>
+                        <span>Наличными</span>
+                        <small>При получении</small>
+                    </label>
+                </div>
+                <div class="payment-option">
+                    <input type="radio" id="card" name="payment" value="card">
+                    <label for="card" class="payment-label">
+                        <i class="fas fa-credit-card"></i>
+                        <span>Картой</span>
+                        <small>Онлайн оплата</small>
+                    </label>
+                </div>
+                <div class="payment-option">
+                        <input type="radio" id="both" name="payment" value="both">
+                        <label for="both" class="payment-label">
+                            <i class="fas fa-wallet"></i>
+                            <span>Оба способа</span>
+                            <small>На выбор при получении</small>
+                        </label>
+                    </div>
+                </div>
+                <p class="payment-note">
+                    <i class="fas fa-info-circle"></i>
+                    Расчет может производиться, как наличными, так и картой.
+                    Вы можете выбрать предпочтительный способ оплаты.
+                </p>
+        </div>
+    </div>
+    <div id="quantity-section">
+        <h2>Количество хот-догов:</h2>
+    <div class="quantity-control">
+        <button id="decrease-btn" class="quantity-btn">-</button>
+        <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+        <button id="increase-btn" class="quantity-btn">+</button>
+    </div>
+        <p id="discount-info">Скидка: 0%</p>
+        <p id="bulk-discount-note">
+            <i class="fas fa-percentage"></i>
+            При заказе 3+ хот-догов - скидка 5%, 5+ - скидка 10%
+        </p>
+    </div>
+    <div id="selected-info">
+        <h2>Ваш заказ:</h2>
+        <p id="selected-hotdog">Хот-дог: не выбран</p>
+        <p id="selected-toppings">Топпинги: нет</p>
+        <p><strong>Способ оплаты:</strong> <span id="selected-payment">Наличными</span></p>
+        <p><strong>Общая стоимость:</strong> <span id="total-price">0 ₽</span></p>
+    </div>
+    <div style="text-align: center; margin: 20px;">
+        <small>Выберите хот-дог и топпинги, затем нажмите "Сохранить заказ"</small>
+    </div>
+    <div class="action-buttons">
+                <button id="save-button" class="btn btn-save">
+                    <i class="fas fa-save"></i> Сохранить заказ
+                </button>
+                <button id="view-orders-btn" class="btn btn-view">
+                    <i class="fas fa-list"></i> История заказов
+                </button>
+                <button id="stats-button" class="btn btn-stats">
+                    <i class="fas fa-chart-bar"></i> Статистика
+                </button>
+                <button id="inventory-btn" class="btn btn-inventory">
+                    <i class="fas fa-boxes"></i> Инвентарь
+                </button>
+                <button id="finance-btn" class="btn btn-finance">
+                    <i class="fas fa-chart-line"></i> Финансы
+                </button>
+                <button id="clear-button" class="btn btn-clear">
+                    <i class="fas fa-trash"></i> Очистить
+                </button>
+    </div>
+
+</body>
+</html>

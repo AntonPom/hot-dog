@@ -1,0 +1,188 @@
+[
+  {
+    "hotdog_name": "Свой",
+    "toppings": [
+      "Майонез",
+      "Кетчуп",
+      "Горчица"
+    ],
+    "hotdog_price": 199.0,
+    "toppings_total": 60.0,
+    "total_price": 259.0,
+    "payment_method": "cash",
+    "payment_display": "Наличными",
+    "timestamp": "2026-01-11 11:18:36"
+  },
+  {
+    "hotdog_name": "Французский",
+    "toppings": [
+      "Майонез",
+      "Огурцы"
+    ],
+    "hotdog_price": 299.0,
+    "toppings_total": 45.0,
+    "total_price": 344.0,
+    "payment_method": "card",
+    "payment_display": "Картой",
+    "timestamp": "2026-01-11 11:23:07"
+  },
+  {
+    "hotdog_name": "Французский",
+    "toppings": [
+      "Сладкий лук"
+    ],
+    "hotdog_price": 299.0,
+    "toppings_total": 15.0,
+    "total_price": 314.0,
+    "payment_method": "cash",
+    "payment_display": "Наличными",
+    "timestamp": "2026-01-11 11:27:28"
+  },
+  {
+    "hotdog_name": "Французский",
+    "toppings": [
+      "Кетчуп"
+    ],
+    "hotdog_price": 299.0,
+    "toppings_total": 20.0,
+    "total_price": 319.0,
+    "payment_method": "cash",
+    "payment_display": "Наличными",
+    "timestamp": "2026-01-11 11:40:26"
+  },
+  {
+    "hotdog_name": "Свой",
+    "toppings": [
+      "Майонез",
+      "Кетчуп",
+      "Горчица",
+      "Сладкий лук"
+    ],
+    "hotdog_price": 199.0,
+    "toppings_total": 75.0,
+    "total_price": 274.0,
+    "payment_method": "cash",
+    "payment_display": "Наличными",
+    "timestamp": "2026-01-11 11:41:34"
+  },
+  {
+    "hotdog_name": "Французский",
+    "toppings": [
+      "Майонез"
+    ],
+    "hotdog_price": 299.0,
+    "toppings_total": 20.0,
+    "quantity": 8,
+    "discount_percent": 10.0,
+    "discount_amount": 255.2,
+    "base_price": 2552.0,
+    "total_price": 2296.8,
+    "payment_method": "cash",
+    "payment_display": "Наличными",
+    "timestamp": "2026-01-11 12:04:01"
+  },
+  {
+    "hotdog_name": "Французский",
+    "toppings": [
+      "Майонез",
+      "Чили"
+    ],
+    "hotdog_price": 299.0,
+    "toppings_total": 35.0,
+    "quantity": 6,
+    "discount_percent": 10.0,
+    "discount_amount": 200.4,
+    "base_price": 2004.0,
+    "total_price": 1803.6,
+    "payment_method": "cash",
+    "payment_display": "Наличными",
+    "timestamp": "2026-01-11 12:40:16"
+  },
+  {
+    "hotdog_name": "Французский",
+    "toppings": [
+      "Горчица"
+    ],
+    "hotdog_price": 299.0,
+    "toppings_total": 20.0,
+    "quantity": 1,
+    "discount_percent": 0.0,
+    "discount_amount": 0.0,
+    "base_price": 319.0,
+    "total_price": 319.0,
+    "payment_method": "cash",
+    "payment_display": "Наличными",
+    "timestamp": "2026-01-11 13:04:01"
+  },
+  {
+    "hotdog_name": "Французский",
+    "toppings": [
+      "Горчица",
+      "Халапеньо"
+    ],
+    "hotdog_price": 299.0,
+    "toppings_total": 35.0,
+    "quantity": 6,
+    "discount_percent": 10.0,
+    "discount_amount": 200.4,
+    "base_price": 2004.0,
+    "total_price": 1803.6,
+    "payment_method": "cash",
+    "payment_display": "Наличными",
+    "timestamp": "2026-01-11 13:08:16"
+  },
+  {
+    "hotdog_name": "Французский",
+    "toppings": [
+      "Майонез",
+      "Горчица",
+      "Халапеньо",
+      "Огурцы"
+    ],
+    "hotdog_price": 299.0,
+    "toppings_total": 80.0,
+    "quantity": 5,
+    "discount_percent": 10.0,
+    "discount_amount": 189.5,
+    "base_price": 1895.0,
+    "total_price": 1705.5,
+    "payment_method": "card",
+    "payment_display": "Картой",
+    "timestamp": "2026-01-11 13:39:07"
+  },
+  {
+    "hotdog_name": "Французский",
+    "toppings": [
+      "Майонез",
+      "Чили"
+    ],
+    "hotdog_price": 299.0,
+    "toppings_total": 35.0,
+    "quantity": 10,
+    "discount_percent": 10.0,
+    "discount_amount": 334.0,
+    "base_price": 3340.0,
+    "total_price": 3006.0,
+    "payment_method": "card",
+    "payment_display": "Картой",
+    "timestamp": "2026-01-11 13:49:19"
+  },
+  {
+    "hotdog_name": "Французский",
+    "toppings": [
+      "Кетчуп",
+      "Горчица",
+      "Чили"
+    ],
+    "hotdog_price": 299.0,
+    "toppings_total": 55.0,
+    "quantity": 3,
+    "discount_percent": 5.0,
+    "discount_amount": 53.1,
+    "base_price": 1062.0,
+    "total_price": 1008.9,
+    "payment_method": "cash",
+    "payment_display": "Наличными",
+    "timestamp": "2026-03-15 18:35:30"
+  }
+]
